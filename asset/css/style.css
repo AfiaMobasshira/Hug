@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+
+a{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 0;
+}
+ul{
+    list-style: none;
+}
+
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+
+.letter-spacing{
+    letter-spacing: 5px;
+}
+.line-height-1{
+    line-height: 36px;
+}
+.line-height-2{
+    line-height: 24px;
+}
+
+
+.max-width {
+    max-width: 1140px;
+}
+body{
+    background-color: #EFF2F4;
+}
+footer{
+    background: #FCC00D;
+
+}
+.lower-footer {
+    background: #FFCB31;
+    ;
+}
+.footer-radius {
+    border-radius: 40px;
+}
+
+/*============ Font-weight-----Start ============*/
+.font-weight-600{
+    font-weight: 600;
+}
+.font-weight-700{
+    font-weight: 700;
+}
+.font-weight-400{
+    font-weight: 400;
+}
+/*============ Font-weight-----End ============*/
+
+
+/*============ Font-size-----Start ============*/
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-24{
+    font-size: 24px;
+}
+.font-size-22{
+    font-size: 22px;
+}
+.font-size-86{
+    font-size: 86px;
+}
+.font-size-32{
+    font-size: 32px;
+}
+.font-size-42{
+    font-size: 42px;
+}
+.font-size-62{
+    font-size: 62px;
+}
+/*============ Font-size-----End *============/
+
+/* ==================spacing==================== */
+
+
+
+
+
+/* ==================spacing==================== */
+
+
+nav .nav-bar ul li a::after
+{
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, #FCC00D, #FCC00D);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+    
+}
+nav .nav-bar ul li a:hover::after
+{
+    width: 100%;
+}
+
+.social-media:hover{
+    color: #7B62FF;
+}
+.arrow-style{
+    background-color: #38b2af;
+}
+.padding-x {
+    padding: 0px 140px;
+}
+.newsletter {
+    width: 100%;
+}
+.footer-input-border-ridius {
+    border-radius: 0px 0px 0px 12px;
+}
+.footer-submit-border-ridius {
+    border-radius: 0px 12px 12px 0px;
+}
+.footer-image {
+    top: -168px;
+    left: 387px;
+}
+.span-h {
+    height: 500px;
+}
+
+/* Afia-Home-Section */
+
+.line-height-3{
+    line-height: 38px;
+}
+.text-color-1-am{
+    color: #2D3E50;
+}
+.span-width{
+    width: 400px;
+    height: 400px;
+    background: #C4C4C4;
+    border-radius: 80px 0px 80px 80px;
+  }
+
+  .image-position-span-1{
+      bottom: -42%;
+      right: 15%;
+  }
+  .span-2-width{
+    width: 400px;
+    height: 400px;
+    background: #C4C4C4;
+    border-radius: 00px 80px 80px 80px;
+    /* transform: rotate(-90deg); */
+    z-index:100;
+  }
+  .image-position-span-2{
+    bottom: -12%;
+    right: 35%;
+    z-index: -1;
+  }
+  .font-size-48{
+    font-size: 48px;
+  }
+  .line-height-4{
+    line-height: 56px;
+  }
+  .line-height-5{
+    line-height: 28px;
+  }
+  .section-background-color{
+    background: #FCC00D;
+    border-radius: 40px;
+  }
+  .div-width{
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+  }
+  .div-border-color{
+    border: 4px solid #dda704;
+ }
+ .div-width-z{
+     z-index: 100;
+ }
+  .vector-position-1{
+      top: -40%;
+      left: -40%;
+      z-index: -1;
+  }
+  .vector-image-width{
+      width:80px;
+  }
+  .frame-image-position{
+      bottom: -70px;
+      right: 100px;
+  }
+  .frame-image-width{
+    width: 200px;
+  }
+  .padding-section{
+      padding-top: 80px;
+      padding-bottom: 80px;
+  }
+
+
+
+/* Afia-Home-Section */
